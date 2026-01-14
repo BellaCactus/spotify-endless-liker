@@ -1,0 +1,30 @@
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# venv
+.venv/
+venv/
+ENV/
+env/
+
+# ide
+.idea/
+.vscode/
+
+# secrets (never commit)
+.env
+.env.*
+client_secrets.json
+client_secrets.*.json
+token*.json
+*.pem
+*.key
+
+# logs
+*.log
+
+# os junk
+.DS_Store
+Thumbs.db
